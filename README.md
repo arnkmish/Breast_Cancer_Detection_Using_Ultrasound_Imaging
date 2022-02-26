@@ -8,3 +8,5 @@ The problem of breast cancer detection is approached from several different ways
 4. Multitask learning based segmentation and classification of BUS tumors. 
 
 The code and the results present in this repository can serve as a baseline for innovative research works in this area.
+
+For the purpose of experimentation, the publicly available BUSI dataset has been utilized, which can be access at: https://scholar.cu.edu.eg/?q=afahmy/pages/dataset
