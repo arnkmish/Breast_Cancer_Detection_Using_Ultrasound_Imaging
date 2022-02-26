@@ -1,4 +1,4 @@
-# Breast_Cancer_Detection_Using_Ultrasound_Imaging
+# Breast Cancer Detection Using Ultrasound Imaging
 This repository contains iPython notebook files that address the problem of breast cancer detection on ultrasound images. 
 
 The problem of breast cancer detection is approached from several different ways- 
