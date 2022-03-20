@@ -29,3 +29,7 @@ For the purpose of experimentation, the publicly available BUSI dataset has been
 |InceptionV3|0.9323    |**0.9560** |0.8809     |0.9456    |**0.9560**|0.9508    |0.9612    |
 |DenseNet121|0.9323    |0.9340     |0.9285     |0.9659    |0.9340    |0.9497    |0.9774    |
 |Ensemble   |**0.9473**|**0.9560** |0.9285     |0.9666    |**0.9560**|**0.9613**|0.9837    |
+
+## Semantic Segmentation Results Using UNet based Model
+
+A UNet based semantic segmentation of BUS tumors have shown decent results with ~70% average Dice Score on BUSI and UDIAT combined test set. The next task to explore is to see whether UNet based predictions blended with the original BUS images can actually help with the Benign vs. Malignant tumor classification or not. Because if it does improve the classification performance compared to the results obtained without using G.T masks, and is near to the performance obtained with G.T. masks, then it would mean that completely automated and effective predictive modeling can be performed for the end goal of efficient breast cancer prediction.
