@@ -5,7 +5,7 @@ The problem of breast cancer detection is approached from several different ways
 
 1. Benign vs. Malignant BUS Tumor classification (With and Without G.T Tumor mask)
 2. Semantic Segmentation of Breast Tumor in BUS images
-3. Multitask learning based segmentation and classification of BUS tumors. 
+3. Automatic tumor mask enhanced  classification of BUS images.
 
 The code and the results present in this repository can serve as a baseline for innovative research works in this area.
 
@@ -43,4 +43,4 @@ A UNet based semantic segmentation of BUS tumors have shown decent results with 
 |DenseNet121|0.7819    |0.9230     |0.4761     |0.7924    |0.9230    |0.8527    |0.7732    |
 |Ensemble   |**0.8045**|**0.9340** |0.5238     |0.8095    |**0.9340**|**0.8673**|0.8354    |
 
-From the UNet Mask Enhanced BUS Tumor Image Classification results we can observe that predicted mask based enhancement doesn't help with improving the classification performance. This is primarily due to the fact that the error from the segmentation phase propagates to the classification phase and the model performance decreases. This is where the importance of MultiTask Learning comes into the picture. What if we learn to do both the Tumor Segmentation and Classification together, in and end-to-end fashion, using a single model? Will that be any good?
+From the UNet Mask Enhanced BUS Tumor Image Classification results we can observe that predicted mask based enhancement doesn't help with improving the classification performance. This is primarily due to the fact that the error from the segmentation phase propagates to the classification phase and the model performance decreases.
